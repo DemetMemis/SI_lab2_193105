@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SILab2Test" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-05-25T20:59:53" hostname="DESKTOP-PR9KB34" time="0.028">
+  <properties/>
+  <testcase name="ConditionTest1()" classname="SILab2Test" time="0.016"/>
+  <testcase name="ConditionTest2()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditionTest3()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditionTest4()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditionTest5()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditionTest6()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditionTest9()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditonTest10()" classname="SILab2Test" time="0.001"/>
+  <testcase name="ConditonTest7()" classname="SILab2Test" time="0.0"/>
+  <testcase name="ConditionTest11()" classname="SILab2Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
