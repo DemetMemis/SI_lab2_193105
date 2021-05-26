@@ -1,0 +1,73 @@
+3.Цикоматската комплексност на графот е 7 бидејки во контрол флов има 7 региони .
+4.MULTIPLE CONDITION
+
+
+
+if (hr < 0 || hr > 24)
+
+
+
+
+if (hr < 0)
+COMBINATION	POSSIBLE TEST CASE	BRANCH
+T	1	9-10
+F	0.5	9-13
+
+else if (hr < 24)
+
+COMBINATION	POSSIBLE TEST CASE	BRANCH
+T	26	16-17
+F	3	16-26
+
+if (min < 0 || min > 59)
+COMBINATION	POSSIBLE TEST CASE	BRANCH
+TX	0.5 , 1	17-18
+FF	0.5 60	17-19
+
+if (sec >= 0 && sec <= 59)
+
+COMBINATION	POSSIBLE TEST CASE	BRANCH
+TT	2,58	20-21
+FX	0.5,60	20-23
+TF	1,65	20-23
+
+if (hr == 24 && min == 0 && sec == 0)
+
+COMBINATION	POSSIBLE TEST CASE	BRANCH
+TTT	24,0,0	26-27
+FXX	0,0,0	26-30
+TTF	24,0,0	26-30
+TFF	24,1,1	26-30
+
+EVERY BRANCH
+123-4,1	25		2h 60m	24 h 0 m 0s 	20h 1m 0s
+4.1-4.2	*	*	*		
+4.2-567	*	*	*		
+4.2-33		*	*		
+567-8	*	*	*		
+8-9					
+8-16			*		
+9-10		*			
+9-12,13	*				
+10-34		*			
+12,13,-34	*				
+16-17		*			
+16-26				*	
+17-19			*		
+17-18			*		
+19-20					*
+20-21		*			
+20-22,23					*
+18-34			*		
+21-32		*			
+22,23-34					*
+26-27			*		
+26-29,30	*				
+27-32			*		
+29,30-34	*	*			
+4,3-4,2	*	*			
+
+Со помош на every-branch методата направив тестови кои ке ги посетат и двата јазли , со  multiple condition методата тестовите ги поминуваат сите иф-елсе услови.
+
+ДЕМЕТ МЕМИШ 193105
+
